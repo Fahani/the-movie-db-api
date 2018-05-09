@@ -1,0 +1,68 @@
+.movie-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.movie-page h5 {
+    color: #888;
+    font-weight: normal;
+    line-height: 1.25rem;
+}
+
+.movie-page h5 span {
+    font-size: inherit;
+    font-weight: normal;
+    color: black;
+    padding-left: 1rem;
+}
+
+.movie-page h4 {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+.movie-page p {
+    color: #888;
+    line-height: 1.5;
+}
+
+.movie-page .movie-image {
+    flex-basis: 100%;
+    height: 575px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.movie-page .movie-details {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto 60px auto;
+}
+
+.movie-page .movie-details h1 {
+    line-height: 1.5em;
+}
+
+.movie-page .movie-details h1 span {
+    font-size: inherit;
+    font-weight: normal;
+    padding-left: 1rem;
+    color: #bbb;
+    line-height: inherit;
+}
+
+.movie-page .genres {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.movie-page .genres span {
+    font-weight: normal;
+}
+
+.movie-page .separator {
+    color: lightgray;
+    padding: 0 10px;
+}

@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #a9adac;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #e27a3f;
+}

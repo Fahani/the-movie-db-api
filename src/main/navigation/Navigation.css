@@ -1,0 +1,18 @@
+.navigation {
+    flex-basis: 20%;
+    min-width: 300px;
+    padding: 0 40px 40px 40px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.width100{
+    width: 100%;
+}
+
+.marginBottom25
+{
+    margin-bottom: 25px;
+}
